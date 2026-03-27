@@ -7,11 +7,9 @@ const Header = () => {
       {/* Left side: Logo & Workspace selector */}
       <div className="flex items-center gap-6">
         <div className="flex items-center gap-2">
-          {/* Logo Icon (Triangle shape) */}
+          {/* Logo Icon*/}
           <div className="text-indigo-400">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11.9961 4.5L1.44239 21.75H8.38075L11.9961 15L15.6114 21.75H22.5498L11.9961 4.5Z" />
-            </svg>
+            <img src='/aventisia_logo.jpeg' alt="logo" className='w-8 h-8 rounded-lg' />
           </div>
           <span className="text-white font-semibold text-xl tracking-tight">Worcspace</span>
         </div>
